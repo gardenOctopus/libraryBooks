@@ -19,12 +19,46 @@ header a {
     text-decoration: none;
 }
 
+header a:hover {
+    color: #d3c6d8;
+}
+
 #logo {
     font-size: 32px;
+    font-family: 'libre_franklinblack';
 }
 
 .header-links {
     font-size: 24px;
+    font-family: 'libre_franklinmedium';
 
     padding-right: 10px;
+}
+
+section {
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 100%;
+    color: #634b6d;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #d3c6d8;
+    font-family: 'libre_franklinbold';
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+tr {
+    border: 1px solid #634b6d;
+}
+
+td {
+    border: 0;
 }
