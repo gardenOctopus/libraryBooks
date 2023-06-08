@@ -25,8 +25,8 @@
      inkscape:document-units="px"
      showgrid="false"
      inkscape:zoom="0.35355339"
-     inkscape:cx="530.33009"
-     inkscape:cy="234.75945"
+     inkscape:cx="705.69257"
+     inkscape:cy="192.33304"
      inkscape:window-width="1280"
      inkscape:window-height="715"
      inkscape:window-x="0"
@@ -182,12 +182,12 @@
        x="6.9110508"
        y="80.474922" />
     <rect
-       style="fill:#7a518a;stroke:#040c0f;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1;paint-order:stroke fill markers;fill-opacity:1"
+       style="fill:#7a518a;fill-opacity:1;stroke:#040c0f;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect3168"
        width="31.208679"
        height="28.622923"
-       x="221.26518"
-       y="-54.079994" />
+       x="161.91206"
+       y="-54.251213" />
     <rect
        style="fill:#d3c6d8;fill-opacity:1;stroke:#040c0f;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect5683"
@@ -360,13 +360,13 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:0;font-family:'Goudy Sans';-inkscape-font-specification:'Goudy Sans';fill:#634b6d;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:bevel;paint-order:stroke fill markers"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.29167px;line-height:0;font-family:'Libre Franklin';-inkscape-font-specification:'Libre Franklin Bold';fill:#634b6d;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:bevel;paint-order:stroke fill markers"
        x="13.607178"
        y="38.728973"
        id="text4820"><tspan
          sodipodi:role="line"
          id="tspan4818"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.29167px;font-family:'Libre Baskerville';-inkscape-font-specification:'Libre Baskerville Bold';fill:#634b6d;fill-opacity:1;stroke-width:0.79375"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.29167px;font-family:'Libre Franklin';-inkscape-font-specification:'Libre Franklin Bold';fill:#634b6d;fill-opacity:1;stroke-width:0.79375"
          x="13.607178"
          y="38.728973">#</tspan></text>
     <text
@@ -415,13 +415,13 @@
          y="109.6833">4</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:0;font-family:'Goudy Sans';-inkscape-font-specification:'Goudy Sans';fill:#634b6d;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:bevel;paint-order:stroke fill markers"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.29167px;line-height:0;font-family:'Libre Franklin';-inkscape-font-specification:'Libre Franklin Bold';fill:#634b6d;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:bevel;paint-order:stroke fill markers"
        x="25.739227"
        y="38.710602"
        id="text4824"><tspan
          sodipodi:role="line"
          id="tspan4822"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.29167px;font-family:'Libre Baskerville';-inkscape-font-specification:'Libre Baskerville Bold';fill:#634b6d;fill-opacity:1;stroke-width:0.79375"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.29167px;font-family:'Libre Franklin';-inkscape-font-specification:'Libre Franklin Bold';fill:#634b6d;fill-opacity:1;stroke-width:0.79375"
          x="25.739227"
          y="38.710602">Title</tspan></text>
     <text
@@ -470,13 +470,13 @@
          y="109.66491">The Trial</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:0;font-family:'Goudy Sans';-inkscape-font-specification:'Goudy Sans';fill:#634b6d;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:bevel;paint-order:stroke fill markers"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.29167px;line-height:0;font-family:'Libre Franklin';-inkscape-font-specification:'Libre Franklin Bold';fill:#634b6d;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:bevel;paint-order:stroke fill markers"
        x="179.48331"
        y="38.308212"
        id="text4834"><tspan
          sodipodi:role="line"
          id="tspan4832"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:'Libre Baskerville';-inkscape-font-specification:'Libre Baskerville';fill:#634b6d;fill-opacity:1;stroke-width:0.79375"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.29167px;font-family:'Libre Franklin';-inkscape-font-specification:'Libre Franklin Bold';fill:#634b6d;fill-opacity:1;stroke-width:0.79375"
          x="179.48331"
          y="38.308212">Read</tspan></text>
     <text
@@ -525,13 +525,13 @@
          y="108.97775">178/178</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:0;font-family:'Goudy Sans';-inkscape-font-specification:'Goudy Sans';fill:#634b6d;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:bevel;paint-order:stroke fill markers"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.29167px;line-height:0;font-family:'Libre Franklin';-inkscape-font-specification:'Libre Franklin Bold';fill:#634b6d;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:bevel;paint-order:stroke fill markers"
        x="230.32509"
        y="38.877808"
        id="text4892"><tspan
          sodipodi:role="line"
          id="tspan4890"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:'Libre Baskerville';-inkscape-font-specification:'Libre Baskerville';fill:#634b6d;fill-opacity:1;stroke-width:0.79375"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.29167px;font-family:'Libre Franklin';-inkscape-font-specification:'Libre Franklin Bold';fill:#634b6d;fill-opacity:1;stroke-width:0.79375"
          x="230.32509"
          y="38.877808">Score</tspan></text>
     <text
@@ -580,12 +580,12 @@
          y="109.54731">10</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:0;font-family:'Goudy Sans';-inkscape-font-specification:'Goudy Sans';fill:#634b6d;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:bevel;paint-order:stroke fill markers"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.29167px;line-height:0;font-family:'Libre Franklin';-inkscape-font-specification:'Libre Franklin Bold';fill:#634b6d;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:bevel;paint-order:stroke fill markers"
        x="104.57109"
        y="38.141014"
        id="text7428"><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.29167px;font-family:'Libre Baskerville';-inkscape-font-specification:'Libre Baskerville Bold';fill:#634b6d;fill-opacity:1;stroke-width:0.79375"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.29167px;font-family:'Libre Franklin';-inkscape-font-specification:'Libre Franklin Bold';fill:#634b6d;fill-opacity:1;stroke-width:0.79375"
          x="104.57109"
          y="38.141014"
          id="tspan7426">Aurthor</tspan></text>
@@ -641,7 +641,7 @@
        id="text4261"><tspan
          sodipodi:role="line"
          id="tspan4259"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:'Libre Baskerville';-inkscape-font-specification:'Libre Baskerville';fill:#634b6d;fill-opacity:1;stroke-width:0.79375"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.29167px;font-family:'Libre Franklin';-inkscape-font-specification:'Libre Franklin Bold';fill:#634b6d;fill-opacity:1;stroke-width:0.79375"
          x="282.16791"
          y="38.308212">Added</tspan></text>
     <text
@@ -710,13 +710,6 @@
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:6.35px;font-family:'Libre Franklin';-inkscape-font-specification:'Libre Franklin Medium';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.79375"
          x="241.87018"
          y="10.550948">User</tspan></text>
-    <rect
-       style="fill:#9fc06d;fill-opacity:1;stroke:#040c0f;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1;paint-order:stroke fill markers"
-       id="rect6145"
-       width="31.208679"
-       height="28.622923"
-       x="259.44461"
-       y="-54.079994" />
     <g
        id="g12687"
        transform="translate(0,-1.583086)">
