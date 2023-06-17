@@ -38,18 +38,17 @@
             <input type="text" placeholder="Enter Title" name="title" required>
 
             <label for="author">Author</label>
-            <input type="text" placeholder="Enter Author Name" name="author" required>
+            <input type="text" placeholder="Enter Author" name="author" required>
 
-            <p>Have you read this book yet?</p>
-            <label for="completed">Completed</label>
-            <input type="radio" id="completed" name="read" value="completed">
-            <label for="notStarted">Not Yet Started</label>
-            <input type="radio" id="notStarted" name="read" value="notStarted">
-            <label for="currentlyReading">Currently Reading</label>
-            <input type="radio" id="currentlyReading" name="read" value="Reading">
+            <label for="read">Have you read this book?</label>
+            <select name="read" id="read" class="select">
+                <option class="option" value="complete">Finished</option>
+                <option class="option" value="incomplete">Not Started</option>
+                <option class="option" value="reading">Currently Reading</option>
+            </select>
 
-            <label for="score">Score</label>
-            <select name="score" id="score">
+            <label for="score">What did you think of this book?</label>
+            <select name="score" id="score" class="select">
                 <option value="six">Masterpiece</option>
                 <option value="five">Great</option>
                 <option value="four">Good</option>
