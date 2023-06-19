@@ -31,11 +31,11 @@ header a:hover {
     font-size: 24px;
     font-family: 'libre_franklinmedium';
 
-    padding-right: 10px;
+    padding-left: 20px;
 }
 
 section {
-    padding: 10px;
+    padding-top: 30px;
 
     display: flex;
     justify-content: center;
@@ -49,6 +49,7 @@ table {
 
 th {
     background-color: #d3c6d8;
+    color: #634b6d;
     font-family: 'libre_franklinbold';
     padding-top: 10px;
     padding-bottom: 10px;
@@ -58,8 +59,18 @@ tr {
     border: 1px solid #634b6d;
 }
 
+tr:nth-child(odd) {
+    background-color: #d3c6d8af;
+}
+
+tr:hover {
+    background-color: #7a518ab6;
+    color: #fff;
+}
+
 td {
-    border: 0;
+    padding: 10px;
+    text-align: center;
 }
 
 #book-form-container {
