@@ -31,9 +31,15 @@ function table() {
     })
 }
 
-//Attaches addBook Function to Nav Link
+//Open Form 
 const addBookBtn = document.getElementById('add-book').addEventListener('click', () => {
-
+    //Open Form on Button Click
+    const form = document.getElementById('book-form-container');
+    form.style.display = 'block';
+    //Close Form When X is Clicked
+    document.getElementById('form-close').addEventListener('click', () => {
+        form.style.display = 'none';
+    })
 });
 
 //Displays Existing Books

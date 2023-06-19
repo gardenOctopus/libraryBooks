@@ -66,6 +66,7 @@ td {
     border: 1px solid #634b6d;
     width: 25vw;
     padding: 10px;
+    display: none;
 }
 
 #book-form {
@@ -83,6 +84,28 @@ label {
     display: block;
 }
 
+#form-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.select-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.close {
+    background-color: #fff;
+    border: 0;
+    color: #634b6d;
+    font-size: 20px;
+}
+
+.close:hover {
+    color: #d3c6d8;
+}
+
 input,
 #submit,
 .select {
@@ -95,6 +118,14 @@ input,
     color: #634b6d;
 }
 
+input:focus,
+#submit:focus,
+.select:focus {
+    outline: none;
+    background-color: #634b6d;
+    color: #d3c6d8;
+}
+
 #submit {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -104,8 +135,6 @@ input,
     background-color: #634b6d;
     color: #d3c6d8;
 }
-
-
 
 
 
