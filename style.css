@@ -75,9 +75,9 @@ td {
 
 #book-form-container {
     border: 1px solid #634b6d;
+    background-color: #fff;
     width: 25vw;
     padding: 10px;
-    display: none;
 }
 
 #book-form {
@@ -145,6 +145,19 @@ input:focus,
 #submit:hover {
     background-color: #634b6d;
     color: #d3c6d8;
+}
+
+#modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #634b6d;
+    background-color: #634b6da4;
 }
 
 

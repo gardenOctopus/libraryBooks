@@ -50,11 +50,13 @@ function table() {
 //Open Form 
 const addBookBtn = document.getElementById('add-book').addEventListener('click', () => {
     //Open Form on Button Click
-    const form = document.getElementById('book-form-container');
-    form.style.display = 'block';
+    const modal = document.getElementById('modal');
+    modal.style.display = 'flex';
+    modal.style.alignItems = 'center';
+    modal.style.justifyContent = 'center';
     //Close Form When X is Clicked
     document.getElementById('form-close').addEventListener('click', () => {
-        form.style.display = 'none';
+        modal.style.display = 'none';
     })
 });
 
