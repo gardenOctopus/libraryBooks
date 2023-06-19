@@ -1,9 +1,29 @@
 // Empty Array for Storing Books
 const books = [
-    {title: 'Alice in Wonderland'},
-    {title: 'Grapes of Wrath'},
-    {title: 'The Second Sex'}
+    {
+        number: 1, 
+        title: 'Alice in Wonderland',
+        author: 'Lewis Carroll',
+        read: 'Finished',
+        score: 'Masterpiece'
+    },
+    {
+        number: 2,
+        title: 'Grapes of Wrath',
+        author: 'John Steinbeck',
+        read: 'Not Started',
+        score: 'Not Rated'
+    },
+    {
+        number: 3,
+        title: 'The Second Sex',
+        author: 'Simone de Beauvoir',
+        read: 'Finished',
+        score: 'Masterpiece'
+    }
 ]
+
+const babies = [1, 2, 3];
 
 //Creates New Book Object
 function createObject (title) {
@@ -17,15 +37,11 @@ function table() {
     //Empty Array for Storing Book Titles
     //Loops Over Book Titles in Objects
     books.forEach(book => {
+        //Adds Row to Bottom of Table
+        const row = table.insertRow(-1);
         for (let key in book) {
-            //Adds Row to Bottom of Table
-            const row = table.insertRow(-1);
-            //Adds Number Column to Table
-            const number = row.insertCell(0);
-            number.innerHTML = 0;
             //Adds Title Column to Table
-            const title = row.insertCell(1);
-            //Adds Book Title to Cell
+            const title = row.insertCell(-1);
             title.innerHTML = `${book[key]}`;
         }
     })
