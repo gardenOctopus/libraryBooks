@@ -23,6 +23,9 @@ const books = [
     }
 ]
 
+//Counts Number of Books Added
+let number = 3;
+
 //Creates New Book Object
 function createObject (number, title, author, read, score) {
     this.number = number
@@ -32,7 +35,8 @@ function createObject (number, title, author, read, score) {
     this.score = score
 }
 
-function table() {
+//Creates Table from Existing Books in Database
+function createTable() {
     //Gets Table
     const table = document.getElementById('table');
     //Empty Array for Storing Book Titles
@@ -46,6 +50,16 @@ function table() {
             title.innerHTML = `${book[key]}`;
         }
     })
+}
+
+//Add New Row to Table
+function newRow(newBook) {
+    const table = document.getElementById('table');
+    const row = table.insertRow(-1);
+    for (let key in newBook) {
+        const title = row.insertCell(-1);
+        title.innerHTML = `${newBook[key]}`;
+    }
 }
 
 //Open Form 
@@ -62,16 +76,16 @@ const addBookBtn = document.getElementById('add-book').addEventListener('click',
 });
 
 //Displays Existing Books
-table();
+createTable();
 
 //Get Form Data
 document.getElementById('submit').addEventListener('click', () => {
-    let number = 0;
+    number += 1;
     let title = document.getElementById('title').value;
     let author = document.getElementById('author').value;
     let read = document.getElementById('read').value;
     let score = document.getElementById('score').value;
     let newBook = new createObject(number, title, author, read, score);
     books.push(newBook);
-    table(newBook);
+    newRow(newBook);
 })
