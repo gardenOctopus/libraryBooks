@@ -23,12 +23,13 @@ const books = [
     }
 ]
 
-const babies = [1, 2, 3];
-
 //Creates New Book Object
-function createObject (title) {
+function createObject (number, title, author, read, score) {
+    this.number = number
     this.title = title
-    return `${title}`
+    this.author = author
+    this.read = read
+    this.score = score
 }
 
 function table() {
@@ -62,3 +63,15 @@ const addBookBtn = document.getElementById('add-book').addEventListener('click',
 
 //Displays Existing Books
 table();
+
+//Get Form Data
+document.getElementById('submit').addEventListener('click', () => {
+    let number = 0;
+    let title = document.getElementById('title').value;
+    let author = document.getElementById('author').value;
+    let read = document.getElementById('read').value;
+    let score = document.getElementById('score').value;
+    let newBook = new createObject(number, title, author, read, score);
+    books.push(newBook);
+    table(newBook);
+})

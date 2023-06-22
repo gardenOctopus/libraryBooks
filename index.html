@@ -32,7 +32,7 @@
     </section>
     <div id="modal">
         <div id="book-form-container">
-            <form action="post" id="book-form">
+            <form id="book-form">
                 <div id="form-head">
                     <h2>Add a New Book</h2>
                     <span>
@@ -40,10 +40,10 @@
                     </span>
                 </div>
                 <label for="title">Title</label>
-                <input type="text" placeholder="Enter Title" name="title" required>
+                <input id="title" name="title" type="text" placeholder="Enter Title" required>
     
                 <label for="author">Author</label>
-                <input type="text" placeholder="Enter Author" name="author" required>
+                <input id="author" name="author" type="text" placeholder="Enter Author" required>
     
                 <label for="read">Have you read this book?</label>
                 <div class="select-container">
@@ -66,7 +66,7 @@
                         <option value="zero">Trash</option>
                     </select>
                 </div>
-                <button type="submit" id="submit">Submit</button>
+                <button type="button" id="submit">Submit</button>
             </form>
         </div>
     </div>
