@@ -63,10 +63,7 @@ tr:nth-child(odd) {
     background-color: #d3c6d8af;
 }
 
-tr:hover {
-    background-color: #7a518ab6;
-    color: #fff;
-}
+
 
 td {
     padding: 10px;
@@ -158,6 +155,19 @@ input:focus,
     overflow: auto;
     background-color: #634b6d;
     background-color: #634b6da4;
+}
+
+button {
+    background-color: #634b6d;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0;
+    font-family: 'libre_franklinbold';
+}
+
+button:hover {
+    background-color: #7a518aa4;
 }
 
 

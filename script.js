@@ -26,6 +26,9 @@ const books = [
 //Counts Number of Books Added
 let number = 3;
 
+//Gets Table
+const table = document.getElementById('table');
+
 //Creates New Book Object
 function createObject (number, title, author, read, score) {
     this.number = number
@@ -37,9 +40,6 @@ function createObject (number, title, author, read, score) {
 
 //Creates Table from Existing Books in Database
 function createTable() {
-    //Gets Table
-    const table = document.getElementById('table');
-    //Empty Array for Storing Book Titles
     //Loops Over Book Titles in Objects
     books.forEach(book => {
         //Adds Row to Bottom of Table
@@ -49,21 +49,43 @@ function createTable() {
             const title = row.insertCell(-1);
             title.innerHTML = `${book[key]}`;
         }
+        //Adds Edit Button to Last Row
+        let btn = row.insertCell(-1);
+        const newBtn = document.createElement('button');
+        newBtn.textContent = 'Edit';
+        btn.appendChild(newBtn);
+        //Adds Event Listener to Button
+        newBtn.addEventListener('click', openForm)
     })
 }
 
 //Add New Row to Table
 function newRow(newBook) {
-    const table = document.getElementById('table');
     const row = table.insertRow(-1);
     for (let key in newBook) {
         const title = row.insertCell(-1);
         title.innerHTML = `${newBook[key]}`;
     }
+    //Adds Edit Button to Last Row
+    let btn = row.insertCell(-1);
+    const newBtn = document.createElement('button');
+    newBtn.textContent = 'Edit';
+    btn.appendChild(newBtn);
+    //Adds Event Listener to Button
+    newBtn.addEventListener('click', openForm)
 }
 
-//Open Form 
-const addBookBtn = document.getElementById('add-book').addEventListener('click', () => {
+function editButton() {
+    //Adds Edit Button to Last Row
+    const newBtn = document.createElement('button');
+    newBtn.textContent = 'Edit';
+    const btn = row.insertCell(-1);
+    btn.appendChild(newBtn);
+    newBtn.addEventListener('click', openForm)
+}
+
+//Opens Form on Button Click
+function openForm() {
     //Open Form on Button Click
     const modal = document.getElementById('modal');
     modal.style.display = 'flex';
@@ -73,7 +95,10 @@ const addBookBtn = document.getElementById('add-book').addEventListener('click',
     document.getElementById('form-close').addEventListener('click', () => {
         modal.style.display = 'none';
     })
-});
+}
+
+//Adds Event Listener to Button to Open Form
+const addBookBtn = document.getElementById('add-book').addEventListener('click', openForm);
 
 //Displays Existing Books
 createTable();
