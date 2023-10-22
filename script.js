@@ -1,5 +1,5 @@
 // Empty Array for Storing Books
-const books = [
+let books = [
     {
         number: 1, 
         title: 'Alice in Wonderland',
@@ -30,24 +30,25 @@ let number = 3;
 const table = document.getElementById('table');
 
 //Creates New Book Object
-function createObject (number, title, author, read, score) {
+class createObject {
+    constructor (number, title, author, read, score) {
     this.number = number
     this.title = title
     this.author = author
     this.read = read
     this.score = score
-}
+}}
 
 //Creates Table from Existing Books in Database
 function createTable() {
     //Loops Over Book Titles in Objects
     books.forEach(book => {
         //Adds Row to Bottom of Table
-        const row = table.insertRow(-1);
+        const row = table.insertRow(-1); //Repeat
         for (let key in book) {
             //Adds Title Column to Table
-            const title = row.insertCell(-1);
-            title.innerHTML = `${book[key]}`;
+            const title = row.insertCell(-1); //Repeat
+            title.innerHTML = `${book[key]}`; //Repeat with Argument
         }
         //Adds Edit Button to Last Row
         let btn = row.insertCell(-1);
@@ -61,10 +62,10 @@ function createTable() {
 
 //Add New Row to Table
 function newRow(newBook) {
-    const row = table.insertRow(-1);
+    const row = table.insertRow(-1); //Repeat
     for (let key in newBook) {
-        const title = row.insertCell(-1);
-        title.innerHTML = `${newBook[key]}`;
+        const title = row.insertCell(-1); //Repeat
+        title.innerHTML = `${newBook[key]}`; //Repeat with Argument
     }
     //Adds Edit Button to Last Row
     let btn = row.insertCell(-1);
