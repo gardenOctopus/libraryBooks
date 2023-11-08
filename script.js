@@ -51,10 +51,10 @@ function createTable() {
             title.innerHTML = `${book[key]}`; //Repeat with Argument
         }
         //Adds Edit Button to Last Row
-        let btn = row.insertCell(-1);
-        const newBtn = document.createElement('button');
-        newBtn.textContent = 'Edit';
-        btn.appendChild(newBtn);
+        let btn = row.insertCell(-1); // Repeat
+        const newBtn = document.createElement('button'); // Repeat
+        newBtn.textContent = 'Edit'; // Repeat
+        btn.appendChild(newBtn); 
         //Adds Event Listener to Button
         newBtn.addEventListener('click', openForm)
     })
