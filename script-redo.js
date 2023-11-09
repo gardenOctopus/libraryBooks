@@ -123,14 +123,25 @@ const addBookBtn = document.getElementById('add-book').addEventListener('click',
 
 //Get Form Data
 document.getElementById('submit').addEventListener('click', () => {
+    // Gets Information
     number += 1;
     let title = document.getElementById('title').value;
     let author = document.getElementById('author').value;
     let read = document.getElementById('read').value;
     let score = document.getElementById('score').value;
-    let newBook = new createObject(number, title, author, read, score);
-    books.push(newBook);
-    newRow(newBook);
+    // Verifies Information
+    const titleV = document.getElementById('title');
+    const authorV = document.getElementById('author');
+    if (!titleV.checkValidity()) {
+        titleV.style.border = 'solid #a81c07 3px';
+    } else if (!authorV.checkValidity()) {
+        authorV.style.border = 'solid #a81c07 3px';
+    } else {
+    // Adds New Object to Table
+        let newBook = new createObject(number, title, author, read, score);
+        books.push(newBook);
+        newRow(newBook);
+    }
 });
 
 
