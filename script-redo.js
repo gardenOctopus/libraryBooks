@@ -66,7 +66,7 @@ class createObject {
 function createRow(b) {
 
     // Creates New Row at the End of the Table
-    let row = table.insertRow(-1);
+    let row = TABLE.insertRow(-1);
 
     // Loops Over Each Item in Books || New Book Item
     for (let key in b) {
@@ -79,12 +79,23 @@ function createRow(b) {
 
     };
 
-    //Adds Edit Button to Last Row
+    //Adds Edit Button to Last Column
     let btn = row.insertCell(-1);
-    const newBtn = document.createElement('button');
-    newBtn.textContent = 'Edit';
-    btn.appendChild(newBtn);
-    newBtn.addEventListener('click', openForm);
+    const editBtn = document.createElement('button');
+    editBtn.textContent = 'Edit';
+    btn.appendChild(editBtn);
+    editBtn.addEventListener('click', openForm);
+
+    //Adds Edit Button to Last Column
+    const removeBtn = document.createElement('button');
+    removeBtn.textContent = 'Remove';
+    btn.appendChild(removeBtn);
+    removeBtn.addEventListener('click', () => {
+        let num = b.number;
+        TABLE.deleteRow(num);
+        books = books.filter(e => e !== b);
+        return books;
+    });
 };
 
 
@@ -134,8 +145,10 @@ document.getElementById('submit').addEventListener('click', () => {
     const authorV = document.getElementById('author');
     if (!titleV.checkValidity()) {
         titleV.style.border = 'solid #a81c07 3px';
+        number -= 1;
     } else if (!authorV.checkValidity()) {
         authorV.style.border = 'solid #a81c07 3px';
+        number -= 1;
     } else {
     // Adds New Object to Table
         let newBook = new createObject(number, title, author, read, score);
